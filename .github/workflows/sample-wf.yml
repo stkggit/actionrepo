@@ -1,5 +1,4 @@
 name: Sample-wf
-
 on:
     push:
     branches: ["main"]
