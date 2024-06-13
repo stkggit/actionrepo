@@ -8,7 +8,13 @@ on:
 jobs:
     run-shell-commands:
         runs-on: ubuntu-latest
-        name: "Sample-wf-run-name  run-shell-commands job"
+        name: "run-shell-commands job"
+        steps:
+            - name: echo a string
+              run: echo "Hello, First job executed from Github Actions"
+    run-shell-commands-2:
+        runs-on: ubuntu-latest
+        name: "run-shell-commands-2 job"
         steps:
             - name: echo a string
               run: echo "Hello, First job executed from Github Actions"
