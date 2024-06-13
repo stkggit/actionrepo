@@ -2,8 +2,7 @@ name: Sample-wf
 run-name: Sample-wf-run-name
 on:
     push:
-    branches: ["main"]
-  
+        branches: ["main"]
     workflow_dispatch:
 
 jobs:
