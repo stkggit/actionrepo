@@ -1,4 +1,5 @@
 name: Sample-wf
+run-name: Sample-wf-run-name
 on:
     push:
     branches: ["main"]
