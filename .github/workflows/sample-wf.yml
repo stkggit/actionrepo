@@ -17,4 +17,4 @@ jobs:
         name: "run-shell-commands-2 job"
         steps:
             - name: echo a string
-              run: echo "Hello, First job executed from Github Actions"
+              run: echo "Hello, second job executed from Github Actions"
